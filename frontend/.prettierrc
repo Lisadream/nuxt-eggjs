@@ -1,0 +1,14 @@
+{
+  "semi": false,
+  "arrowParens": "always",
+  "tabWidth": 2,
+  "singleQuote": true,
+  "no-spaced-func": 1,
+  "no-trailing-spaces": 0,
+  "sortAttributes": false,
+  "no-irregular-whitespace":"off",
+  "bracketSpacing": true,
+  "printWidth": 200,
+  "htmlWhitespaceSensitivity": ignore,
+  "endOfLine": "auto"
+}
