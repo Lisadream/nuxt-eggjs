@@ -12,6 +12,11 @@ class UserController extends BaseController {
         const user = await this.ctx.model.User.findOne({email})
         return user
     }
+    async login(){
+      const {ctx} =this
+      ctx.body='kwg kwg wgkwg wg'
+
+    }
     async create() {
         console.log(this)
         const {ctx}=this

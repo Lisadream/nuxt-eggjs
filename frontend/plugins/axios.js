@@ -8,3 +8,4 @@ const service = axios.create({
 })
 // @ todo拦截器管理token
 Vue.prototype.$http = service
+export const http = service

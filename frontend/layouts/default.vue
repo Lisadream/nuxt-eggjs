@@ -1,8 +1,14 @@
 <template>
   <div>
-    <h1>导航栏</h1>
-    <nuxt />
-    <h1>底部信息</h1>
+    <el-container>
+      <el-header>
+        <nuxt-link to="/login">登录</nuxt-link>
+        <nuxt-link to="/register">注册</nuxt-link>
+      </el-header>
+      <el-main>
+        <nuxt />
+      </el-main>
+    </el-container>
   </div>
 </template>
 

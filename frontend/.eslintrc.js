@@ -9,13 +9,13 @@ module.exports = {
   },
   extends: [
     '@nuxtjs',
-    'prettier',
+    // 'prettier',
     'prettier/vue',
     'plugin:prettier/recommended',
     'plugin:nuxt/recommended'
   ],
   plugins: [
-    'prettier'
+    // 'prettier'
   ],
   // add your custom rules here
   rules: {
@@ -24,6 +24,14 @@ module.exports = {
     "no-console": "off",
     "no-spaced-func": 1,
     "no-trailing-spaces": 0,
-    "no-irregular-whitespace": "off"
+    "no-irregular-whitespace": "off",
+    "no-undef": 0,
+    "no-unused-vars": [0, { 
+      // 允许声明未使用变量
+      "vars": "local",
+      // 参数不检查
+      "args": "none" 
+    }],
+    "require-await":0
   }
 }
